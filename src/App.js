@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const Pet = (props) => {
   return React.createElement("div", {}, [
     React.createElement("h1", {}, props.name),
@@ -29,4 +32,4 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(React.createElement(App));
+root.render(<App />);
