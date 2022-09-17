@@ -1,6 +1,7 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
+  "source": "src/index.html",
   "description": "",
   "scripts": {
     "build": "parcel build",
