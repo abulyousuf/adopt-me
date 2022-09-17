@@ -1,9 +1,10 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
-  "main": "dist/index.html",
+  "source": "src/index.html",
   "description": "",
   "scripts": {
+    "build": "parcel build",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
