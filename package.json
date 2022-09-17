@@ -1,6 +1,7 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
+  "main": "index.html",
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html",
